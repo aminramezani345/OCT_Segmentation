@@ -18,7 +18,7 @@ Main repository belongs to: https://github.com/Beknaizer/OCT-Retinal-Layer-Segme
 ## General info
 This is the deep learning based approach to segement retina layers on Optical Coherence Tomogrpahy images. The main aim of project is to automate segmentation process of layers by using neural networks. 
 
-![Alt text](/for_readme/ezgif.com-gif-maker.gif "Optional title")
+![Alt text](/ezgif.com-gif-maker.gif "Optional title")
 
 ## Dataset
 
@@ -41,14 +41,14 @@ Annotated by myself, [small example of dataset](< https://drive.google.com/file/
 - RPE - retinal pigment epithelium;
 - Choroid; 
 
-![](/for_readme/layers.png)
+![](/layers.png)
 	
 ## Technologies
 Project is created with:
 
 * <img src="https://brandslogos.com/wp-content/uploads/images/large/python-logo.png" width=16 height=16> Pyhton version: 3.8.10
 * <img src="https://avatars.githubusercontent.com/u/15658638?s=280&v=4" width=16 height=16> Tensorflow version: 2.4.1
-* <img src="/for_readme/pngwing.com.png" width=16 height=16> Numpy version: 1.22.4
+* <img src="/pngwing.com.png" width=16 height=16> Numpy version: 1.22.4
 * <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Matplotlib_icon.svg/1200px-Matplotlib_icon.svg.png" width=16 height=16> Matplotlib version: 3.5.2
 * <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/OpenCV_Logo_with_text.png/487px-OpenCV_Logo_with_text.png" width=16 height=16> OpenCV version: 4.5.5
 * <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1200px-Keras_logo.svg.png" width=16 height=16> Keras versoin: 2.4.0
@@ -59,15 +59,15 @@ Project is created with:
 UNet is a specially designed architecture of CNN for image segmentation in different cases, but originally, for biomedical images. It is designed to identify not only bold obvious border lines, but also thin barely noticeable lines. Because of this reason originally it was designed for biomedical images, where you should segment vessels on eye images for example and so on. It is a sequence of convolution that decreases image size till some moment and vice versa upsample it again by adding additional info from corresponding previous layer. Because of this reason it is called UNet, this type of processes create U shaped architecture. Below, you can view a detailed UNet architecture which a used in this work.
 
 
-<img src="/for_readme/256.png">
+<img src="/256.png">
 
 As you can see in figure upper, algorithm takes a grayscale image with 640x640x1 as input and gives 640x640x9 as output image. Each layer in the output image is a retinal layer in the OCT image.
 
-<img src="/for_readme/layers_1by1.gif">
+<img src="/layers_1by1.gif">
 
 IoU(Intersection over Union) - is a common evaluation metric for semantic image segmentation. Mean IoU of algorithm - 75.4%. As activation function I used ReLu, as validation metrics - simple accuracy of keras.models library. Final value of accuracy - 96.45%, loss - 0.1016 (decreased from 2.01).
 
-<img src="/for_readme/accuracy&loss.png">
+<img src="/accuracy&loss.png">
 
 ## Usage
 >json_mask_reading.ipynb
