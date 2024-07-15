@@ -4,7 +4,7 @@
 
 # OCT - Retinal Layer Segmenter
 A deep learning algorithm for multiclass semantic segmentation of retinal layers in Optical Coherence Tomography images.
-
+Main repository belongs to 
 ## Table of contents
 * [General info](#general-info)
 * [Retinal layers](#retinal-layers)
@@ -91,8 +91,6 @@ It is jupyter-notebook file that contain main part of segmentation algorithm.</b
 * *SIZE_X* - width of image (optional, default 640 pixels)
 * *SIZE_Y* - height of image (optional, default 640 pixels)
 
-## Checkpoints
- [Here](https://drive.google.com/drive/folders/1zKkv0BsFAHi2BV7oUBiD8FRK_HDMaViE?usp=sharing) you can download already trainded weights for OCTID dataset.
+
  
-## References
-I want to express gratitude to Dr. Sreenivas Bhattiprolu ([youtube](https://www.youtube.com/@DigitalSreeni), [github](https://github.com/bnsreenu)), for inspiring and helping me to make this. Some part of codes and intuition that i used in this project i took from him. You can view the playlist of this author's lessons with the code attached.
+
