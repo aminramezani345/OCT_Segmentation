@@ -4,7 +4,7 @@
 
 # OCT - Retinal Layer Segmenter
 A deep learning algorithm for multiclass semantic segmentation of retinal layers in Optical Coherence Tomography images.
-Main repository belongs to 
+Main repository belongs to: https://github.com/Beknaizer/OCT-Retinal-Layer-Segmenter/tree/master 
 ## Table of contents
 * [General info](#general-info)
 * [Retinal layers](#retinal-layers)
