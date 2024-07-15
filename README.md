@@ -27,4 +27,9 @@ To get started, clone this repository and install the required dependencies:
 git clone https://github.com/your-username/OCT-Retinal-Layer-Segmenter.git
 cd OCT-Retinal-Layer-Segmenter
 pip install -r requirements.txt
+##Dataset
+You can download the dataset from the following link:
 
+Download OCT Retinal Layer Segmentation Dataset
+
+Organize the dataset in the following structure:
